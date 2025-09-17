@@ -1,6 +1,6 @@
 # Excel-sheet
 
-'''
+
 =LET(
   txt, A2,
   pos, SEARCH("PRODUCT DESCRIPTION", txt),
@@ -11,4 +11,4 @@
   s3, SUBSTITUTE(s2, " Color:", CHAR(10)&"Color:"),
   s3
 )
-'''
+
